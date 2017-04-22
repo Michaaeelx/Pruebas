@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+body {
+	background-color: #fff;
+}
+
+.informacion {
+    background: url(../imagenes/1.png) #d46a6a;
+    color: white;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ffaaaa;
+    box-shadow: 0px 0px 10px 0px #d46a6a;
+    display: block;
+}
+
+.informacion img {
+    float: left;
+    padding: 0 10px;
+}
+
+.informacion .title {
+    font-family: 'SansationBold';
+    font-size: 14px;
+    text-shadow: 0px 2px rgba(0, 0, 0, .2);
+    padding: 10px 0;
+    display: inline-block;
+    float: left;
+}
+
+.informacion marquee {
+    display: block;
+    font-size: 12px;
+}
+
+.informacion:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+footer {
+    clear: both;
+    background: white;
+    background: url(../imagenes/1.png) #fff;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #bebebe;
+    box-shadow: 0 0 10px 0 #bebebe;
+}
+
+footer .footer-right {
+    float: left;
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px 15px;
+}
+
+footer .footer-right span {
+    display: block;   
+}
+
+footer .footer-right span a {
+    color: #2f2f2f;
+    text-decoration: none;
+    border-bottom: 1px dotted #2f2f2f;
+}
+
+footer .social-icons {
+    float: right!important;
+    max-width: 171px;
+    padding: 0px!important;
+}
+
+footer .facebook-ico {
+    background: url(../imagenes/2f.png) no-repeat;
+}
+
+footer .twitter-ico {
+    background: url(../imagenes/2t.png) no-repeat;
+}
+
+footer .youtube-ico {
+    background: url(../imagenes/2y.png) no-repeat;
+}
+
+footer .facebook-ico, .twitter-ico, .youtube-ico {
+    background-size: cover!important;
+    float: left;
+    height: 50px;
+    margin: 0px 5px;
+    opacity: .75;
+    width: 47px;
+}
+
+footer:after, .right-bottom:after {
+    content: " ";
+    display: table;
+    clear: both;
+	}
+
+#pull-right {
+	background: url(../imagenes/pull_right.png) no-repeat 0px 0px;
+	text-decoration: none;
+    text-indent: 100%;
+    position: fixed;
+    overflow: hidden;
+    bottom: 26px;
+    right: 3%;
+    width: 50px;
+    height: 50px;
+    border: none;
+	}
+}
